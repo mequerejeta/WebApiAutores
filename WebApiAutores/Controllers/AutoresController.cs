@@ -7,7 +7,8 @@ using WebApiAutores.Entities;
 namespace WebApiAutores.Controllers
 {
     [ApiController]
-    [Route("api/autores")] // al poner api/autores en lugar de api/ [controller] lo que estoy haciendo es que estoy ruteando
+    [Route("api/autores")] // al poner api/autores en lugar de api/ [controller] lo que estoy haciendo
+                           // es que estoy ruteando
         // la ruta para que a pesar de cambiarle el nombre a la clase, se le siga pegando a esta.
     public class AutoresController : ControllerBase
     {
